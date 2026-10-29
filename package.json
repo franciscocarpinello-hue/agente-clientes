@@ -1,0 +1,14 @@
+{
+  "name": "agente-clientes",
+  "private": true,
+  "type": "module",
+  "description": "Agente que busca negocios en Google Maps, audita su web, arma maquetas y consigue llamadas agendadas.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "buscar": "node scripts/buscar.mjs",
+    "auditar": "node scripts/auditar.mjs",
+    "maquetas": "node scripts/maqueta.mjs",
+    "plan": "node scripts/plan.mjs",
+    "crm": "node scripts/crm.mjs"
+  }
+}

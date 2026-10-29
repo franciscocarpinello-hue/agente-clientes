@@ -1,0 +1,90 @@
+{
+  "nombre": "Francisco Carpinello",
+  "presentacion": {
+    "es": "Soy Francisco Carpinello, hago webs para negocios como el tuyo.",
+    "en": "I'm Francisco Carpinello, I build websites for local businesses like yours."
+  },
+  "email_aviso": "franciscocarpinello@gmail.com",
+  "calendly_url": "https://calendly.com/franciscocarpinello/30min",
+  "zona_horaria": "America/Argentina/Buenos_Aires",
+  "horario_llamadas": "Todos los días de 10 a 20 (hora Argentina)",
+
+  "modo_prueba": true,
+  "precio_por_escrito": false,
+
+  "limites_diarios": {
+    "busquedas_maps": 30,
+    "emails_nuevos": 10,
+    "whatsapp": 20,
+    "instagram": 5,
+    "maquetas": 5
+  },
+  "seguimientos_dias": [3, 7],
+  "filtro": { "estrellas_min": 4.0, "resenas_min": 10, "max_sucursales": 3 },
+
+  "mercados": {
+    "AR": {
+      "idioma": "es",
+      "pais": "Argentina",
+      "region": "AR",
+      "precio": "$200.000 la web completa + $20.000 por mes de mantenimiento",
+      "canales": ["email", "whatsapp", "instagram"]
+    },
+    "US": {
+      "idioma": "en",
+      "pais": "United States",
+      "region": "US",
+      "precio": "USD 1,800 for the full website + USD 99/month maintenance",
+      "canales": ["email", "instagram"]
+    }
+  },
+
+  "clientes_ideales": "Emprendimientos y negocios con buenas reseñas que no tienen web o tienen una que funciona mal. En USA, remodeladoras con buenas reseñas y web floja.",
+
+  "rubros_activos": ["odontologia"],
+  "rubros": {
+    "odontologia": {
+      "nombre": "Odontología",
+      "mercado": "AR",
+      "consultas": ["dentista", "odontólogo", "clínica dental", "consultorio odontológico", "ortodoncia"],
+      "cliente": "paciente",
+      "accion": "pedir turno",
+      "servicios": ["Limpieza y control", "Ortodoncia", "Implantes", "Blanqueamiento", "Odontopediatría", "Urgencias"],
+      "paleta": { "primario": "#0E7490", "acento": "#22D3EE", "fondo": "#F0FDFF", "tinta": "#0B1F2A" },
+      "zonas": [
+        "Palermo, CABA", "Belgrano, CABA", "Caballito, CABA", "Recoleta, CABA", "Villa Urquiza, CABA",
+        "Flores, CABA", "Almagro, CABA", "Núñez, CABA", "Villa Crespo, CABA", "Balvanera, CABA",
+        "San Isidro, Buenos Aires", "Vicente López, Buenos Aires", "Quilmes, Buenos Aires", "Lomas de Zamora, Buenos Aires",
+        "Morón, Buenos Aires", "La Plata, Buenos Aires", "Tigre, Buenos Aires", "Pilar, Buenos Aires",
+        "Córdoba capital", "Rosario", "Mendoza", "San Miguel de Tucumán", "Mar del Plata", "Salta", "Santa Fe capital",
+        "Neuquén", "San Juan", "Bahía Blanca", "Paraná", "Corrientes", "Posadas", "Resistencia"
+      ]
+    },
+    "kinesiologia": {
+      "nombre": "Kinesiología",
+      "mercado": "AR",
+      "consultas": ["kinesiólogo", "kinesiología", "centro de rehabilitación", "fisioterapia"],
+      "cliente": "paciente",
+      "accion": "pedir turno",
+      "servicios": ["Rehabilitación deportiva", "Traumatología", "RPG", "Drenaje linfático", "Kinesiología respiratoria", "Atención a domicilio"],
+      "paleta": { "primario": "#166534", "acento": "#4ADE80", "fondo": "#F2FBF5", "tinta": "#0D1F14" },
+      "zonas": [
+        "Palermo, CABA", "Belgrano, CABA", "Caballito, CABA", "Recoleta, CABA", "Villa Urquiza, CABA",
+        "San Isidro, Buenos Aires", "Quilmes, Buenos Aires", "La Plata, Buenos Aires", "Córdoba capital", "Rosario", "Mendoza"
+      ]
+    },
+    "remodeling-miami": {
+      "nombre": "Remodeling (Miami)",
+      "mercado": "US",
+      "consultas": ["kitchen remodeling", "bathroom remodeling", "home remodeling contractor"],
+      "cliente": "homeowner",
+      "accion": "get a free estimate",
+      "servicios": ["Kitchen remodeling", "Bathroom remodeling", "Custom closets", "Flooring", "Full home renovation", "Free estimates"],
+      "paleta": { "primario": "#1F2937", "acento": "#D97706", "fondo": "#FAF7F2", "tinta": "#111827" },
+      "zonas": [
+        "Miami, FL", "Hialeah, FL", "Doral, FL", "Coral Gables, FL", "Kendall, FL", "Miami Beach, FL",
+        "Fort Lauderdale, FL", "Hollywood, FL", "Pembroke Pines, FL", "Boca Raton, FL"
+      ]
+    }
+  }
+}
